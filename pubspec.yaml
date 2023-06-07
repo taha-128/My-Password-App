@@ -1,0 +1,66 @@
+name: my_password
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.4 <3.0.0"
+
+dependencies:
+  cloud_firestore: ^4.5.2
+  firebase_auth: ^4.4.0
+  firebase_core: ^2.9.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  flutter_svg: ^2.0.5
+  go_router: ^6.5.1
+  percentify: ^1.0.3
+  select_form_field: ^2.2.0
+  inner_shadow_widget: ^0.0.3
+  image_picker: ^0.8.7+4
+  firebase_storage: ^11.1.1
+  zoom_tap_animation: ^1.1.0
+  shimmer_animation: ^2.1.0+1
+  wave_transition:
+  internet_connection_checker_plus: ^1.0.1
+  shared_preferences: ^2.1.1
+  url_launcher: ^6.1.11
+  loading_animation_widget: ^1.2.0+4
+  encrypt: ^5.0.1
+  awesome_snackbar_content: ^0.1.3
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/svgs/
+    - assets/images/
+    - assets/pictures/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 700
