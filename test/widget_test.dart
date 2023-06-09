@@ -14,7 +14,7 @@ import 'package:my_password/main.dart';
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(MyPassword(profileCubit: ProfileCubit()));
+    await tester.pumpWidget(MyApp(profileCubit: ProfileCubit()));
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);

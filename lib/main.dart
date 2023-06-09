@@ -13,12 +13,12 @@ void main() async {
   await Firebase.initializeApp();
   final profileCubit = ProfileCubit();
   await profileCubit.initializePreferences();
-  runApp(MyPassword(profileCubit: profileCubit)); 
+  runApp(MyApp(profileCubit: profileCubit)); 
 }
 
-class MyPassword extends StatelessWidget {
+class MyApp extends StatelessWidget {
   final ProfileCubit profileCubit; 
-  const MyPassword({super.key, required this.profileCubit});
+  const MyApp({super.key, required this.profileCubit});
 
   @override
   Widget build(BuildContext context) {
